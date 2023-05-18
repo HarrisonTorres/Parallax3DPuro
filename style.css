@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #333;
+}
+
+::selection{
+    background-color: #0b372dbb;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.content{
+    height: 720px;
+    width: 10px;
+    background-color: #333;
+    
+}
+
+.backgound-interative {
+    background-color: #353;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    pointer-events: none;
+}
+
+.parallax {
+    transition: 0.2s cubic-bezier(0,.64,.7,1);
+    transform: translate(-50%, -50%); 
+}
+
+.bg-img {
+    position: absolute;
+    width: 194.44%;
+    height: auto;
+    top: 1.86%;
+    left: 50.06%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.fog-7 {
+    position: absolute;
+    width: 1900px;
+    height: auto;
+    top: calc(50% - 100px);
+    left: calc(50% - 300px);
+    z-index: 2;
+    pointer-events: none;
+}
+
+.fog-7 {
+    position: absolute;
+    width: 135.71%;
+    height: auto;
+    top: calc(50% - 7.14%);
+    left: calc(50% - 21.43%);
+    z-index: 2;
+    pointer-events: none;
+}
+
+.montain-10 {
+    position: absolute;
+    width: 62.14%;
+    height: auto;
+    top: calc(50% + 9.58%);
+    left: calc(50% + 16.43%);
+    z-index: 3;
+    pointer-events: none;
+}
+
+.fog-6 {
+    position: absolute;
+    width: 130.93%;
+    height: auto;
+    top: calc(50% + 13.19%);
+    left: calc(50% + 0.50%);
+    z-index: 4;
+    pointer-events: none;
+}
+
+.montain-9 {
+    position: absolute;
+    width: 33.07%;
+    height: auto;
+    top: calc(50% + 16.53%);
+    left: calc(50% - 32.64%);
+    z-index: 5;
+    pointer-events: none;
+}
+
+.montain-8 {
+    position: absolute;
+    width: 56.14%;
+    height: auto;
+    top: calc(50% + 13.33%);
+    left: calc(50% - 14.43%);
+    z-index: 6;
+    pointer-events: none;
+}
+
+.fog-5 {
+    position: absolute;
+    width: 32.07%;
+    height: auto;
+    top: calc(50% + 23.75%);
+    left: calc(50% + 2.07%);
+    z-index: 7;
+    pointer-events: none;
+}
+
+.montain-7 {
+    position: absolute;
+    width: 36.79%;
+    height: auto;
+    top: calc(50% + 18.61%);
+    left: calc(50% + 21.79%);
+    z-index: 8;
+    pointer-events: none;
+}
+
+.montain-6 {
+    position: absolute;
+    width: 27.39%;
+    height: auto;
+    top: calc(50% + 12.04%);
+    left: calc(50% + 41.79%);
+    z-index: 10;
+    pointer-events: none;
+}
+
+.fog-4 {
+    position: absolute;
+    width: 38.79%;
+    height: auto;
+    top: calc(50% + 33.61%);
+    left: calc(50% - 4.57%);
+    z-index: 11;
+    pointer-events: none;
+}
+
+.montain-5 {
+    position: absolute;
+    width: 41.64%;
+    height: auto;
+    top: calc(50% + 37.36%);
+    left: calc(50% + 9.29%);
+    z-index: 12;
+    pointer-events: none;
+}
+
+.fog-3 {
+    position: absolute;
+    width: 102.50%;
+    height: auto;
+    top: calc(50% + 20.69%);
+    left: calc(50% - 2%);
+    z-index: 13;
+    pointer-events: none;
+
+}
+
+.montain-4 {
+    position: absolute;
+    width: 51.21%;
+    height: auto;
+    top: calc(50% + 30.69%);
+    left: calc(50% - 27.25%);
+    z-index: 14;
+    pointer-events: none;
+}
+
+.montain-3 {
+    position: absolute;
+    width: 29.93%;
+    height: auto;
+    top: calc(50% + 18.47%);
+    left: calc(50% + 52.57%);
+    z-index: 15;
+    pointer-events: none;
+}
+
+.fog-2 {
+    position: absolute;
+    width: 101.29%;
+    height: auto;
+    top: calc(50% + 24.75%);
+    left: calc(50% - 2.14%);
+    z-index: 16;
+    pointer-events: none;
+}
+
+.montain-2 {
+    position: absolute;
+    width: 44.64%;
+    height: auto;
+    top: calc(50% + 26.11%);
+    left: calc(50% + 29.43%);
+    z-index: 19;
+    pointer-events: none;
+}
+
+.montain-1 {
+    position: absolute;
+    width: 31.93%;
+    height: auto;
+    top: calc(50% + 12.71%);
+    left: calc(50% - 42.93%);
+    z-index: 19;
+    pointer-events: none;
+}
+
+.fog-1 {
+    position: absolute;
+    width: 114.29%;
+    height: auto;
+    top: calc(100% - 49.31%);
+    left: 50%;
+    z-index: 21;
+    pointer-events: none;
+}
+
+.text {
+    position: absolute;
+    z-index: 9;
+    color: white;
+    top: calc(50% - 18.06%);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+    pointer-events: auto;
+}
+
+.text h2 {
+    font-size: 6.5rem;
+    font-weight: 100;
+}
+
+.text h1 {
+    font-size: 8rem;
+    font-weight: 800;
+    line-height: 0.88;
+}
+
+.sun-rays {
+    position: absolute;
+    width: 39.93%;
+    height: auto;
+    top: 0;
+    right: 0;
+    z-index: 19;
+    pointer-events: none;
+}
+
+.black-shadow {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    z-index: 20;
+    pointer-events: none;
+    transform: translate(0, 0);
+}
+
+.vitage {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: radial-gradient(
+        ellipse at center, 
+        rgba(0, 0, 0, 0) 65%, 
+        rgba(0, 0, 0, 0.7)
+    );
+}
+
