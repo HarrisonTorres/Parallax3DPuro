@@ -3,6 +3,13 @@
   let clientX = 0;
   let clientY = 0;
 
+  function loading() {
+    setTimeout(() => {
+      document.querySelector('.preloader').style.display = 'none';
+      document.querySelector('.container').style.display = 'block';
+    });
+  }
+
   mouseMouvent = (event) => {
       
   }
@@ -70,4 +77,5 @@
   
   
   window.addEventListener("mousemove", handleMouseMove);
-  
+
+  loading();
